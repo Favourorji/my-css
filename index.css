@@ -1,0 +1,79 @@
+div {
+    width: 30%;
+    border: 5px solid blue;
+    border-radius: 20px;
+    padding: 5%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+input[type=text] {
+    width: 300px;
+    border: 1px groove black;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    opacity: 0.3;
+}
+input[type=email] {
+    width: 300px;
+    border:1px groove black ;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    opacity: 0.3;
+}
+input[type=password] {
+    width:300px;
+    border: 1px groove black;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin:8px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    opacity: 0.3;
+}
+button[type=submit] {
+    width: 300px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#para1 {
+    text-indent: 2%;
+}
+#para2 {
+    text-indent: 50px
+}
+.login-with-google-btn {
+    /*Your existing button styles*/
+    background-color: white;
+    color:black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.login-with-google-btn::before {
+    content: url('path/to/google-icon.svg'); /*Replace with the actual path to your SVG icon*/
+    margin-right: 10px; /*Add some spacing between the icon and text*/
+}
